@@ -1,0 +1,67 @@
+:root {
+    --color-blanco: #fff;
+    --color-verde: #A8D42E;
+    --color-verde-agua:#F5F8ED;
+    --color-verde-claro: #E2ECC5;
+    --color-verde-manzana: #93D500;
+}
+/* ===================================
+    Fuentes
+=================================== */
+@font-face{
+    font-family: "DINPro-Bold";
+    src: url("fonts/DINPro-Bold.otf");
+}
+@font-face{
+    font-family: "DINNextLTPro-Regular";
+    src: url("fonts/DINNextLTPro-Regular.otf");
+}
+
+/* ===================================
+    Global
+=================================== */
+.bk-verde { background-color: var(--color-verde); }
+.bk-verde-agua { background-color: var(--color-verde-agua) !important; }
+.bk-verde-claro { background-color: var(--color-verde-claro) !important; }
+.bk-verde-manzana { background-color: var(--color-verde-manzana) !important; }
+.blanco { color: var(--color-blanco); }
+.verde { color: var(--color-verde); }
+
+h4 {
+    font-family: 'DINPro-bold';
+}
+h6 {
+    font-family: 'DINNextLTPro-Regular';
+    font-size: 0.5rem !important;
+}
+.table {
+    border-color: transparent !important;
+}
+.borde-width {
+    border-bottom-width: 5px;
+    border-color: var(--color-blanco);
+}
+#header, #footer {
+    min-height: 180px;
+}
+#main {
+    min-height: 550px;
+}
+@media (min-height: 1024px) {
+    #main {
+        min-height: 700px;
+    }
+}
+.portada {
+    background: url(images/portada.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.fondo {
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
